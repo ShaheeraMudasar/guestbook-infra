@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: guestbook-frontend
-        image: quay.io/shaheeramudasar/guestbook-frontend:latest
+        image: quay.io/shaheeramudasar/guestbook-frontend:1.0.1-c237117
         ports:
         - containerPort: 8080 #container is listening on 8081
