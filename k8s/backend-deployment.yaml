@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: guestbook-backend
-        image: quay.io/shaheeramudasar/guestbook-backend:1.0.1-df994b8
+        image: quay.io/shaheeramudasar/guestbook-backend:1.0.2-f9d0880
         ports:
         - containerPort: 8080
         env:
